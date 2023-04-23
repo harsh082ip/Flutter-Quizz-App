@@ -10,7 +10,7 @@ class QuizzScreen extends StatefulWidget {
 class _QuizzScreenState extends State<QuizzScreen> {
   @override
   Widget build(BuildContext context) {
-    return Text(
+    return const Text(
       'Questions will be added here',
       style: TextStyle(color: Colors.white, fontSize: 20.0),
     );
